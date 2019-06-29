@@ -16,3 +16,9 @@ if (hourNow > 18) {
 
 document.write('<h3>' + greeting + '</h3>');
 
+var wantsToAdd = prompt('Do you want to add feedback today? Type yes or no');
+
+//  is wantstoAdd not equal to yes, and is it not equal to no
+while (wantsToAdd !== 'yes' && wantsToAdd !== 'no') {
+    wantsToAdd = prompt(;Do you want to add feedback today? Type yes or no');
+}
